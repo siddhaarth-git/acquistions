@@ -1,8 +1,7 @@
 import express from 'express';
-const app=express();
-app.get('/',(req,res)=>
-{
-    res.status(200).send('Hello from Acquistions API ');
-})
+const app = express();
+app.get('/', (req, res) => {
+  res.status(200).send('Hello from Acquistions API ');
+});
 
 export default app;
